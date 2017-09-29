@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search Abstraction Layer</title>
+    <meta name="description" content="An API that allows for image searching and responds with image URLs and image data for results. Allows pagination and recent search strings.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Image Search Abstraction Layer
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        <div>
+          Example query: <br/>
+        Searching for cookies: <code>https://znb-image-search-abstraction.herokuapp.com/imagesearch/cookies</code><br/>
+        Searching for cookies, page 2: <code>https://znb-image-search-abstraction.herokuapp.com/imagesearch/cookies/2</code><br/>
+        Getting the most recent searches: <code>https://znb-image-search-abstraction.herokuapp.com/recent/</code>
+        </div>
+        <br/>
+        <div>
+          Example output: <br/>
+        <code>{
+"url": "https://farm5.staticflickr.com/4422/36702849123_c70c44f240.jpg",
+"webpage": "https://www.flickr.com/photos/56683128@N05/36702849123",
+"altText": "Cross"
+}
+          </code>
+        </div>
+
+      </p>
+
+    </main>
+
+
+  </body>
+</html>

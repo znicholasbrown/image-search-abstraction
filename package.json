@@ -1,24 +1,29 @@
 {
-  "name": "image-search-abstraction-layer",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "my-glitch-app",
   "version": "0.0.1",
-  "description": "An API that allows for image searching and responds with image URLs and image data for results. Allows pagination and research search strings.",
+  "description": "What am I about?",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.16.0",
+    "mongodb": "^2.2.31"
   },
   "engines": {
     "node": "8.x"
   },
   "repository": {
-    "url": "https://znicholasbrown.github.io/image-search-abstraction"
+    "url": "https://glitch.com/edit/#!/welcome-project"
   },
   "license": "MIT",
   "keywords": [
     "node",
-    "fcc",
+    "glitch",
     "express"
   ]
 }
