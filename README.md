@@ -1,4 +1,6 @@
-Deployment Endpoint: [znb-image-search-abstraction.herokuapp.com/]: https://znb-image-search-abstraction.herokuapp.com/
+Deployment Endpoint: https://znb-image-search-abstraction.herokuapp.com/
+
+
 ###Image Search Abstraction Layer
 
 Example query: 
